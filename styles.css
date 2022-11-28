@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*---------header div-------------*/
+.header{
+    height: 60px;
+    width: 100%;
+    border: 0.5px thin;
+    border-color: white;
+    padding: 0 10%;
+    box-shadow: 0px 1px 1px 1px;
+    background-color: white;
+
+    position: static;
+}
+
+*{
+   box-sizing: border-box; /* does what it does */
+}
+
+.buttons{
+    float: right;
+    
+    margin: 20px 4%;
+    font-size: larger;
+}
+
+#button1:hover{
+    box-shadow: 1px;
+    border: 1px thin;
+    color: darkblue;
+    box-shadow: 1px 2px blue;
+    cursor: pointer;
+}
+
+#button2:hover{
+    box-shadow: 1px;
+    border: 1px thin;
+    box-shadow: 1px 2px blue;
+    cursor: pointer;
+}
+
+.nav-contents{
+    float: right;
+    
+}
+
+.nav-contents ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.nav-contents ul li{
+    list-style: none;
+}
+
+.nav-contents-1{
+    float: left;
+    margin-top: 10px;
+}
+
+a:hover{
+    color: blue;
+}
+
+/*----------end of header styling---------------------*/
+
+
+
+/*main body - that is main content which is inside the footer and the header*/
+/*main body starts here*/
+/*--------------------------------------------------------------------------------------*/
+
+.div-places{
+    height: 200px;
+}
+
+.card {
+    
+    width: 10%;
+    margin-left: 10px;
+    float: left;
+  }
+  
+  .card:hover {
+    
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .container {
+    padding: 0.1px 4px;
+  }
+
+  .text{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+  }
+
+  /* courses card styles down below */
+  .course-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+ .course-card > img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .course-container {
+    padding: 2px 16px;
+  }
+
+  .text2{ /* courses tabs texts font sizes are very large */
+    font-family: sans-serif;
+
+  }
+
+  /*------------end of main body styles-------------------------*/
+
+
+  /*---start of footer styiling--------------------------------*/
+
+  .footer{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    padding: 20px 80px 0px 80px;
+    box-sizing: border-box;
+  }
+
+  .footer-content{
+    color: white;
+    font-family: sans-serif;
+    height: 50%;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+  .footer-content2{
+    color: white;
+    font-family: sans-serif;
+    height: 25%;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+  .footer-content3{
+    color: white;
+    font-family: sans-serif;
+    height: 25%;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    margin-left: -700px;
+    margin-top: 100px;
+  }
+
+.footer-content4{
+    float: right;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 300px;
+    margin-right: 100px;
+}
